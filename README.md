@@ -35,4 +35,4 @@ The server will start and display its pid. You need it for the next step.<br>
 Replace <server_pid> with the process ID of the server (displayed when you start the server), and <message> with the message you want to send to the server.
 
 ## Dependencies
-My implementation of the "philosophers" project includes all necessary dependencies within the source code, requiring no additional installations.
+My implementation of the "minitalk" project includes all necessary dependencies within the source code, requiring no additional installations.
