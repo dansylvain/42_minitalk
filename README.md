@@ -22,20 +22,17 @@ cd minitalk
 make
 ```
 ### Running the Programs
-Once compiled successfully, you can run the client and server programs. Start the server program first, followed by the client program. Here's how to do it:
-1-**Start the server:**
+Once compiled successfully, you can run the client and server programs. Start the server program first, followed by the client program. Here's how to do it:<br>
+* **Start the server:**
 ```bash
 ./server
 ```
 The server will start and display its pid. You need it for the next step.<br>
-2-**In a separate terminal window, run the client:**
+* **In a separate terminal window, run the client:**
 ```bash
 ./client <server_pid> <message>
 ```
 Replace <server_pid> with the process ID of the server (displayed when you start the server), and <message> with the message you want to send to the server.
 
 ## Dependencies
-
-## Usage
-
-## Examples
+My implementation of the "philosophers" project includes all necessary dependencies within the source code, requiring no additional installations.
