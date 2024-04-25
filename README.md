@@ -13,7 +13,7 @@ Through this project, users can gain a deeper understanding of signal handling a
 To use the "minitalk" application in your project, clone the repository containing the necessary files from GitHub:
 
 ```bash
-git clone <https://github.com/dansylvain/42_minitalk>
+git clone https://github.com/dansylvain/42_minitalk minitalk
 ```
 ### Compiling the Program
 Navigate to the project directory and compile the client and server programs using the Makefile:
@@ -32,7 +32,10 @@ The server will start and display its pid. You need it for the next step.<br>
 ```bash
 ./client <server_pid> <message>
 ```
-Replace <server_pid> with the process ID of the server (displayed when you start the server), and <message> with the message you want to send to the server.
+> [!IMPORTANT]
+> Replace **<server_pid>** with the process ID of the server (displayed when you start the server), and **< message>** with the message you want to send to the server.
 
 ## Dependencies
 My implementation of the "minitalk" project includes all necessary dependencies within the source code, requiring no additional installations.
+
+Enjoy minitalk! 📶
